@@ -18,5 +18,6 @@ from django.urls import path
 from BlogDetails import views
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/',views.postData)
+    path('api/',views.postData),
+    path('getApi/',views.getData)
 ]
